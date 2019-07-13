@@ -1,8 +1,8 @@
 # Your Name or Company
-title: Uni Kravitz
+title: Marybeth & Josh Are Getting Married!
 
 # Description of your website. This is used for social sharing.
-description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
+description:  Marybeth Kram and Josh Beckman will be getting married September 19th 2020.
 
 # A brief blurb about yourself
 content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
@@ -10,20 +10,20 @@ content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis cons
 # Add your social links
 social:
   - platform: github
-    url: https://github.com/brianmaierjr
+    url: https://github.com/andjosh
   - platform: facebook
-    url: https://facebook.com/brianmaierjr
+    url: https://facebook.com/andjosh
   - platform: twitter
-    url: https://twitter.com/brianmaierjr
+    url: https://twitter.com/_andjosh
   - platform: linkedin
-    url: brianmaierjr
+    url: andjosh
 
 # General settings
 # url: http://brianmaierjr.github.com/uni
 # baseurl: "/uni" 
 markdown: kramdown
-sharing_image: share.jpg
-google_analytics: "UA-58263416-1" # google analytics tracking
+sharing_image: half-lg.jpg
+google_analytics: "" # google analytics tracking
 
 #### LAYOUT OPTIONS #####
 
