@@ -1,29 +1,3 @@
-![Uni Jekyll Theme](/assets/img/share.jpg)
-
-# Uni – A one-page Jekyll theme
-
-[View Half Demo](http://brianmaierjr.com/uni/) | [View Full Demo](http://brianmaierjr.com/uni/full) | [View Card Demo](http://brianmaierjr.com/uni/card)
-
-## Features
-
-* Minimal, One-Page Design
-* Fast and responsive
-* Flexible
-* Built using these tools:
-  * GULP
-  * SASS
-  * BROWSERSYNC
-  * AUTOPREFIXER
-* A modular, type scale
-* 3 different layouts with additional options
-* Responsive Images for performance
-* Social Meta Tags
-
-## Browser Support
-
-This theme will look great and work in most newer browsers. If you see an issue please feel free to [contact me](mailto:brimaidesigns@gmail.com).
-
----
 
 ## Setup
 
@@ -50,30 +24,6 @@ The main settings can be found inside the `_config.yml` file:
   * **platform**: display name for social media or external link
   * **url**: destination for the link
 * **google_analytics** Google Analytics key (optional)
-
----
-
-![Uni Jekyll Theme](layout--half.jpg)
-
-## Half Layout
-
-* **half_side:** which side of the page your content is on [left or right]
-
----
-
-![Uni Jekyll Theme](layout--full.jpg)
-
-## Full layout
-
-* **full_text_position:** where on the page the text will appear [left, center, or right]
-
----
-
-![Uni Jekyll Theme](layout--card.jpg)
-
-## Card layout
-
-The background image and other style customizations can be changed in `assets/scss/layouts/_card.scss`
 
 ---
 
