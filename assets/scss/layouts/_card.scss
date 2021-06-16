@@ -24,7 +24,7 @@
     }
   }
 
-  .socialLinks__link {
+  .nav__link {
     @include button--outline();
     font-family: $sans-serif;
   }

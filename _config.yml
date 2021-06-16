@@ -5,13 +5,25 @@ title: Marybeth & Josh Are Getting Married!
 description:  Marybeth Kram and Josh Beckman will be getting married September 19th 2020.
 
 # A brief blurb about yourself
-content: After ten years, Marybeth and Josh will be getting married September 19th, 2020!
+content: After 13 years, Marybeth and Josh will be getting married September 19th, 2020!
 
 # Add your social links
 social:
-  - platform: More Coming Soon
-    url: ''
-twitter: _andjosh
+  - platform: The Date
+    id: home
+    url: '/'
+  - platform: RSVP Here
+    id: rsvp
+    url: '/rsvp'
+  - platform: The Wedding Party
+    id: party
+    url: '/wedding-party'
+  - platform: FAQ
+    id: faq
+    url: '/faq'
+  - platform: Map
+    id: map
+    url: '/map'
 
 # General settings
 # url: http://brianmaierjr.github.com/uni
@@ -20,9 +32,6 @@ markdown: kramdown
 sharing_image: half-lg.jpg
 
 #### LAYOUT OPTIONS #####
-
-# Half layout
-half_side: right
 
 # Full layout
 full_text_position: right # left, right or center

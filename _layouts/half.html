@@ -6,11 +6,11 @@
 <body class="half">
 
   <main>
-    <div class="half--{{ site.half_side }} half__content">
+    <div class="half--{{ page.half_side }} half__content">
       {{ content }}
       {% include social.html %}
     </div>
-    <div class="half__image"></div>
+    <div class="half__image {{ page.url | slugify }}"></div>
   </main>
 
 </body>

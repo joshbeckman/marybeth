@@ -1,5 +1,7 @@
-<div class="socialLinks">
+<div class="nav">
   {% for link in site.social %}
-      <a class="socialLinks__link socialLInk__{{ link.platform }}" href="{{ link.url }}" target="_blank">{{ link.platform }}</a>
+    {% if link.id != page.id %}
+      <a class="nav__link nav_{{ link.platform }}" href="{{ link.url }}">{{ link.platform }}</a>
+    {% endif %}
   {% endfor %}
 </div>
