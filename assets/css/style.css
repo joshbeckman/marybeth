@@ -20,3 +20,65 @@ select { min-width: 33%; }
   text-decoration: none;
   background-color: #21618C;
 }
+.party {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.party-member {
+  width: 50%;
+  display:-ms-flexbox;display:flex;-ms-flex-flow:column nowrap;flex-flow:column nowrap;-ms-flex-pack:center;justify-content:center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.party-member img {
+  border-radius: 50%;
+}
+.party-member p {
+  text-align: center;
+}
+@media screen and (max-width:800px){
+.half__image.rsvp-html{
+  background-image:url(/assets/img/party.jpeg)
+}
+.half__image.wedding-party-html{
+  background-image:url(/assets/img/snowman.jpeg)
+}
+.half__image.faq-html{
+  background-image:url(/assets/img/dip_stairs.jpeg)
+}
+.half__image.map-html{
+  background-image:url(/assets/img/skyline.jpeg)
+}
+}
+@media screen and (min-width:801px) and (max-width:1200px){
+.half__image.rsvp-html{
+  background-image:url(/assets/img/party.jpeg)
+}
+.half__image.wedding-party-html{
+  background-image:url(/assets/img/snowman.jpeg)
+}
+.half__image.faq-html{
+  background-image:url(/assets/img/dip_stairs.jpeg)
+}
+.half__image.map-html{
+  background-image:url(/assets/img/skyline.jpeg)
+}
+}
+@media screen and (min-width:1200px){
+.half__image.rsvp-html{
+  background-image:url(/assets/img/party.jpeg)
+}
+.half__image.wedding-party-html{
+  background-image:url(/assets/img/snowman.jpeg)
+}
+.half__image.faq-html{
+  background-image:url(/assets/img/dip_stairs.jpeg)
+}
+.half__image.map-html{
+  background-image:url(/assets/img/skyline.jpeg)
+}
+}
