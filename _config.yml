@@ -12,9 +12,9 @@ social:
   - platform: The Date
     id: home
     url: '/'
-      #   - platform: RSVP Here
-      #     id: rsvp
-      #     url: '/rsvp'
+  - platform: RSVP Here
+    id: rsvp
+    url: '/rsvp'
   - platform: The Wedding Party
     id: party
     url: '/wedding-party'
