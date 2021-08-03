@@ -32,6 +32,7 @@ half_side: right
         <option value="Chicken">Chicken</option>
         <option value="Vegetarian">Vegetarian</option>
     </select>
+    <button id="add-child" class="nav__link">Add child</button>
     <p style="margin: 2rem 0 1rem">
         Our officiant has an additional request in hopes of adding something special to the ceremony. Please feel free to answer below.
     </p>
@@ -54,6 +55,8 @@ half_side: right
 <script>
     var form = document.getElementById("my-form");
     var submit = document.getElementById("submit");
+    var child = document.getElementById("add-child");
+    var childCount = 0;
     
     async function handleSubmit(event) {
       event.preventDefault();
@@ -79,5 +82,22 @@ half_side: right
         status.style.color = "red";
       });
     }
+    function makeChild(count) {
+        return [
+            '<label for="child-name-',
+            '">Your child\'s name:</label><input type="text" name="child-name-',
+            '" id="child-name-',
+            '" placeholder="First and last"><label for="child-food-',
+            '">Their choice of dinner?</label><select name="child-food-',
+            '" id="child-food-',
+            '"><option>Select</option><option value="Beef">Grilled Filet Mignon Steak</option><option value="Chicken">Pan Seared French Cut Chicken Breast</option><option value="Vegetarian">Spinach & Ricotta Cheese Ravioli (Vegetarian)</option</select>'
+        ].join(count)
+    }
+    function handleChild(event) {
+        event.preventDefault();
+        childCount += 1;
+        child.insertAdjacentHTML('beforebegin', makeChild(childCount))
+    }
     form.addEventListener("submit", handleSubmit)
+    child.addEventListener("click", handleChild)
 </script>
