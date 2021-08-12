@@ -22,6 +22,7 @@ half_side: right
         <option value="Beef">Grilled Filet Mignon Steak</option>
         <option value="Chicken">Pan Seared French Cut Chicken Breast</option>
         <option value="Vegetarian">Spinach & Ricotta Cheese Ravioli (Vegetarian)</option>
+        <option value="Vegan">Vegan meal option</option>
     </select>
     <label for="partner-name">Your partner's name (if applicable):</label>
     <input type="text" name="partner-name" id="partner-name" placeholder="First and last">
@@ -31,6 +32,7 @@ half_side: right
         <option value="Beef">Beef</option>
         <option value="Chicken">Chicken</option>
         <option value="Vegetarian">Vegetarian</option>
+        <option value="Vegan">Vegan meal option</option>
     </select>
     <button id="add-child" class="nav__link">Add child</button>
     <p style="margin: 2rem 0 1rem">
@@ -90,7 +92,7 @@ half_side: right
             '" placeholder="First and last"><label for="child-food-',
             '">Their choice of dinner?</label><select name="child-food-',
             '" id="child-food-',
-            '"><option>Select</option><option value="Beef">Grilled Filet Mignon Steak</option><option value="Chicken">Pan Seared French Cut Chicken Breast</option><option value="Vegetarian">Spinach & Ricotta Cheese Ravioli (Vegetarian)</option</select>'
+                '"><option>Select</option><option value="Beef">Grilled Filet Mignon Steak</option><option value="Chicken">Pan Seared French Cut Chicken Breast</option><option value="Vegetarian">Spinach & Ricotta Cheese Ravioli (Vegetarian)</option><option value="Vegan">Vegan meal option</option></select>'
         ].join(count)
     }
     function handleChild(event) {
