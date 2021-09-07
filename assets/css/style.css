@@ -59,6 +59,9 @@ select { min-width: 33%; }
 .half__image.map-html{
   background-image:url(/assets/img/skyline.jpeg)
 }
+.half__image.activities-html{
+  background-image:url(/assets/img/skyline.jpeg)
+}
 }
 @media screen and (min-width:801px) and (max-width:1200px){
 .half__image.rsvp-html{
@@ -79,6 +82,9 @@ select { min-width: 33%; }
 .half__image.map-html{
   background-image:url(/assets/img/skyline.jpeg)
 }
+.half__image.activities-html{
+  background-image:url(/assets/img/skyline.jpeg)
+}
 }
 @media screen and (min-width:1200px){
 .half__image.rsvp-html{
@@ -97,6 +103,9 @@ select { min-width: 33%; }
   background-image:url(/assets/img/dip_stairs.jpeg)
 }
 .half__image.map-html{
+  background-image:url(/assets/img/skyline.jpeg)
+}
+.half__image.activities-html{
   background-image:url(/assets/img/skyline.jpeg)
 }
 }

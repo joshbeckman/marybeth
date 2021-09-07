@@ -24,6 +24,9 @@ social:
   - platform: Map
     id: map
     url: '/map'
+  - platform: Activities
+    id: activities
+    url: '/activities'
 
 # General settings
 # url: http://brianmaierjr.github.com/uni
