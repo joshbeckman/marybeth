@@ -1,32 +1,20 @@
 # Your Name or Company
-title: Marybeth & Josh Are Getting Married!
+title: Marybeth & Josh Are Married!
 
 # Description of your website. This is used for social sharing.
-description:  Marybeth Kram and Josh Beckman will be getting married September 19th 2020.
+description:  Marybeth Kram and Josh Beckman were married September 18th 2021.
 
 # A brief blurb about yourself
-content: After 13 years, Marybeth and Josh will be getting married September 19th, 2020!
+content: Marybeth and Josh wered married September 18th, 2021!
 
 # Add your social links
 social:
   - platform: The Date
     id: home
     url: '/'
-  - platform: RSVP Here
-    id: rsvp
-    url: '/rsvp'
   - platform: The Wedding Party
     id: party
     url: '/wedding-party'
-  - platform: FAQ
-    id: faq
-    url: '/faq'
-  - platform: Map
-    id: map
-    url: '/map'
-  - platform: Activities
-    id: activities
-    url: '/activities'
 
 # General settings
 # url: http://brianmaierjr.github.com/uni
